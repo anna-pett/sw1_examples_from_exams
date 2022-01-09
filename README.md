@@ -16,3 +16,8 @@ this collection is still growing and pull requests are welcome.
 
 p.s
 the biggest and most amorphous package is polymorphism, it includes mostly questions about overriding and overloading methods.
+
+
+p.p.s suggest to check out<br>
+[open questions alternative solutions](https://github.com/anna-pett/sw1_examples_from_exams/tree/main/src/openQuestions)<br>
+[data immutability example](https://github.com/anna-pett/sw1_examples_from_exams/tree/main/src/dataSafety/e2019b_A/q9)
