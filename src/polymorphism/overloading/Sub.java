@@ -1,6 +1,8 @@
 package polymorphism.overloading;
 
-public class SubClass extends SuperClass {
+import java.util.List;
+
+public class Sub extends Base {
 	@Override
 	public void doSomething(Integer i) {
         System.out.println("SUB: INTEGER");
@@ -15,13 +17,14 @@ public class SubClass extends SuperClass {
         System.out.println("SUB: STRING");
     }
 
-
+//    public String genFunc(List<Integer> s) { return null; };
+    
     public static void main (String[] args) {
 		Object i = Integer.valueOf(2);
         Object o = new Object(); 
-        SuperClass sup = new SuperClass();
-        SuperClass supsub = new SubClass();
-        SubClass sub = new SubClass();
+        Base sup = new Base();
+        Base supsub = new Sub();
+        Sub sub = new Sub();
 
         System.out.println("------1------");
         sup.doSomething(i);

@@ -1,6 +1,8 @@
 package polymorphism.overloading;
 
-public class SuperClass {
+import java.util.List;
+
+public class Base {
 	public void doSomething(Integer i) {
         System.out.println("SUPER: INTEGER");
     }
@@ -12,18 +14,20 @@ public class SuperClass {
     private void doSomething(String[] o) {
         System.out.println("SUPER: ARR");
     }
+    
+    public String genFunc(List<String> s) { return null; };
 
     public static void main (String[] args) {
 		Object i = Integer.valueOf(2);
         Object o = new Object(); 
-        SuperClass sc = new SuperClass();
+        Base sc = new Base();
         sc.doSomething(i);
         sc.doSomething(o); 
         
         System.out.println("***");
         Object arr = new String[]{"", ""};
         sc.doSomething(arr);
-        SubClass sub = new SubClass();
+        Sub sub = new Sub();
         sub.doSomething(arr);
         System.out.println("***");
         String[] arr2 = new String[]{"", ""};
