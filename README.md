@@ -19,5 +19,5 @@ the biggest and most amorphous package is polymorphism, it includes mostly quest
 
 
 p.p.s suggest to check out<br>
-[open questions alternative solutions](https://github.com/anna-pett/sw1_examples_from_exams/tree/main/src/openQuestions)<br>
-[data immutability example](https://github.com/anna-pett/sw1_examples_from_exams/tree/main/src/dataSafety/e2019b_A/q9)
+[open questions alternative solutions](src/openQuestions)<br>
+[data immutability example](src/dataImmutability/e2019b_A/q9)
